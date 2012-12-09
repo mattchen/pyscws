@@ -1594,7 +1594,7 @@ char *scws_segment(char *text)
 					sprintf(retval, "%.*s", cur->len, text + cur->off);
 				}
 			}
-			printf("Word: %s\n", retval);
+			// printf("Word: %s\n", retval);
 			cur = cur->next;
 		}
 		scws_free_result(res);
