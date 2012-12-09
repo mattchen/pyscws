@@ -12,7 +12,8 @@
 #ifdef WIN32
 #	include "config_win32.h"
 #endif
- 
+
+#include <Python.h>
 #include "scws.h"
 #include "xdict.h"
 #include "rule.h"
