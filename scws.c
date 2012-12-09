@@ -1569,8 +1569,8 @@ char *scws_segment(char *text)
 	}
 
 	scws_set_charset(s, "utf8");
-	scws_set_dict(s, "/usr/local/pyscws/etc/dict.utf8.xdb", SCWS_XDICT_XDB);
-	scws_set_rule(s, "/usr/local/pyscws/etc/rules.utf8.ini");
+	scws_set_dict(s, "/usr/local/scws/etc/dict.utf8.xdb", SCWS_XDICT_XDB);
+	scws_set_rule(s, "/usr/local/scws/etc/rules.utf8.ini");
 
 	int retval_len = strlen(text) * 2;
 	retval = (char *) malloc(retval_len);
