@@ -1560,7 +1560,7 @@ char *scws_segment(char *text)
 	scws_res_t res, cur;
 	char *retval;
 
-	char *text = "Hello, 我名字叫李那曲是一个中国人, 我有时买Q币来玩, 我还听说过C#语言";
+	// char *text = "Hello, 我名字叫李那曲是一个中国人, 我有时买Q币来玩, 我还听说过C#语言";
 
 	if (!s = scws_new()) {
 		printf("error, can't init the scws_t!\n");
